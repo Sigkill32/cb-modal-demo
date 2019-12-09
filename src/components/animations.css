@@ -1,0 +1,58 @@
+.modal-main {
+  animation: none;
+}
+
+.modal {
+  animation: none;
+  overflow: hidden;
+}
+
+.zoom {
+  animation: zoom-in 200ms;
+}
+
+.bounce {
+  animation: bounce 500ms;
+}
+
+.fade {
+  animation: fade 500ms;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+  25% {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+
+  75% {
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
