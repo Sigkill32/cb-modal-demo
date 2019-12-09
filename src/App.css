@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+.nav {
+  width: 30%;
+  height: 98vh;
+  background-color: #fff;
+  position: fixed;
+}
+.nav img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-content {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  width: 100%;
+  height: 80%;
+  flex-wrap: wrap;
+  padding: 10px 0px;
+  overflow: auto;
+}
+.nav-content a {
+  display: inline-block;
+  margin: 0.5em;
+  text-align: center;
+  color: #b1aea6;
+  font-weight: 700;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.nav-content a:active,
+a:hover,
+a.active {
+  color: #595958;
+}
+
+.demo {
+  height: 90vh;
+  padding-top: 10vh;
+  padding-left: 35%;
+  background-color: #e3f6f5;
+}
+.demo h1 {
+  text-align: center;
+  font-weight: normal;
+}
+.demo .description {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 20%;
+}
+.demo .description p {
+  width: 48%;
+  padding: 20px;
+  padding-right: 40px;
+  border-right: 1px dotted #888785;
+  color: #888785;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+.demo .description div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.demo .description button {
+  margin-left: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: black;
   color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+.intro {
+  padding-left: 35%;
+  text-align: center;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e3f6f5;
+}
+.intro h1 {
+  margin-bottom: 30px;
+  font-weight: normal;
+  font-size: 50px;
+}
+.intro p {
+  color: #888785;
+  letter-spacing: 1px;
+  line-height: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*# sourceMappingURL=App.css.map */
