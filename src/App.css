@@ -87,11 +87,12 @@ a.active {
 .intro {
   padding-left: 35%;
   text-align: center;
-  min-height: 90vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: #e3f6f5;
+  padding-bottom: 20vh;
 }
 .intro h1 {
   margin-bottom: 30px;
@@ -102,6 +103,33 @@ a.active {
   color: #888785;
   letter-spacing: 1px;
   line-height: 30px;
+}
+
+.live-editor {
+  border: solid;
+  background-color: black;
+  color: white;
+  width: 50%;
+}
+
+.live-container {
+  display: flex;
+  margin-top: 40px;
+}
+
+.live-preview {
+  background-color: white;
+  width: 45%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.live-error {
+  width: 50%;
+  background-color: red;
+  color: white;
 }
 
 /*# sourceMappingURL=App.css.map */
