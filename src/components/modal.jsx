@@ -97,7 +97,8 @@ class Example extends Component {
         <div className="description" style={{ marginTop: "0" }}>
           <p>
             Create a modal inside a modal. The flexibilty provided by the
-            library allows you to create nested modals
+            library allows you to create nested modals. Try it yourself with the
+            interactive editor.
           </p>
           <div>
             <button onClick={this.openModal}>Nested Modal</button>
